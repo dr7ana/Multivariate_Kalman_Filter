@@ -196,7 +196,7 @@ line = ax.plot(n_arr, results, lw = 0.5, color = 'blue', aa = True, alpha = 0.8,
 ax.set_title('Kalman Filter Time Stamping', fontsize = 20)
 ax.legend(fontsize = 12)
 plt.xlabel('Number of Steps (n)')
-plt.ylabel('Step Time (10e-5 seconds)')
+plt.ylabel('Step Time (seconds)')
 
 # Tick marks
 ax.set_yticks(np.arange(ymin - yborder, ymax + yborder, yint))
